@@ -1,0 +1,693 @@
+                                                                                              (Ques-1.1)
+name="kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("The area of the rectangle is:", area)
+print("The perimeter of the rectangle is:", perimeter)
+
+
+
+                                                                                              (Ques-1.2)
+name="kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+sub1 = float(input("Enter marks for subject 1: "))
+sub2 = float(input("Enter marks for subject 2: "))
+sub3 = float(input("Enter marks for subject 3: "))
+
+avg_marks = (sub1 + sub2 + sub3) / 3
+
+print("The average marks of the 3 subjects is:", avg_marks)
+
+
+
+                                                                                                    (Ques-1.3)
+name="kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the annual interest rate (in decimal form): "))
+compounding_period = int(input("Enter the number of times interest is compounded per year: "))
+time = int(input("Enter the number of years: "))
+
+amt = principal * (1 + rate/compounding_period) ** (compounding_period * time)
+CI = amt - principal
+
+print("The compound interest is:", CI)
+print("The final amount is:", amt)
+
+
+
+                                                                                                       (Ques-2.1)
+name="kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+
+string = "Hello, World!"
+substring1 = string[0:4]
+print(substring1)
+
+substring2 = string[7:]
+print(substring2) 
+
+substring3 = string[-6:-1]
+print(substring3)  
+
+substring4 = string[::2]
+print(substring4)  
+
+substring5 = string[::-1]
+print(substring5) 
+
+                                                                                       
+                                                                                       
+                                                                                               (Ques-2.2)
+name="kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+string = "Hello, World!"
+length = len(string)
+print(length)
+
+string = "Hello, World!"
+lowercase = string.lower()
+print(lowercase)  
+
+string = "Hello, World!"
+uppercase = string.upper()
+print(uppercase) 
+
+string = "Hello, World!"
+split_string = string.split(", ")
+print(split_string)  
+
+string = "Hello, World!"
+new_string = string.replace("World", "Python")
+print(new_string)  
+
+
+
+
+                                                                                             (Ques-3.1)
+name="Kamalpreet"
+rollno=2210997110
+print(name)
+print(rollno)
+def check_divisibility(num, divisor):
+    if num % divisor == 0:
+        return True
+    else:
+        return False
+
+
+num = int(input("Enter the numerator: "))
+divisor = int(input("Enter the divisor: "))
+
+if check_divisibility(num, divisor):
+    print(f"{num} is divisible by {divisor}")
+else:
+    print(f"{num} is not divisible by {divisor}")
+
+
+
+                                                                                                (Ques-3.2)
+name="Kamalpreet"
+rollno=2210997110
+print(name)
+print(rollno)
+def check_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+
+num = float(input("Enter a number: "))
+print(f"The number {num} is {check_number(num)}.")
+
+
+
+                                                                                                   (Ques-3.3)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+
+year = int(input("Enter a year: "))
+
+if is_leap_year(year):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
+
+
+
+                                                                                                  (Ques-3.4)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+def calculate_allowances(basic_salary):
+    if basic_salary >= 20000:
+        da = 0.3 * basic_salary
+        hra = 0.2 * basic_salary
+    else:
+        da = 0.2 * basic_salary
+        hra = 0.1 * basic_salary
+    return da, hra
+
+basic_salary = float(input("Enter the basic salary: "))
+da, hra = calculate_allowances(basic_salary)
+print("Dearness Allowance (DA):", da)
+print("House Rent Allowance (HRA):", hra)
+
+
+
+
+                                                                                                   (Ques-3.5)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+sales_amount = float(input("Enter the sales amount: "))
+
+if sales_amount >= 15000:
+    commission = sales_amount * 0.2
+elif sales_amount >= 1000:
+    commission = sales_amount * 0.15
+else:
+    commission = sales_amount * 0.1
+
+print("Commission: ", commission)
+
+
+
+                                                                                                      (Ques-4.1)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+counter = 0
+
+while counter < 5:
+    print("This is iteration number", counter+1)
+    counter += 1
+
+print("Loop finished!")
+
+
+
+                                                                                                  (Ques-4.2)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+number = 1
+
+while number <= 10:
+    print(number)
+    number += 1
+
+print("Loop finished!")
+
+
+
+                                                                                                    (Ques-4.3)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+for number in range(1, 11):
+    if number == 5:
+        break
+    print(number)
+
+for number in range(1, 11):
+    if number == 5:
+        continue
+    print(number)
+
+
+                                                                                                     (Ques-4.4)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+num = int(input("Enter a number: "))
+divisor = 2
+while divisor < num:
+    if num % divisor == 0:
+        print(num, "is not a prime number.")
+        break
+    divisor += 1
+else:
+    print(num, "is a prime number.")
+
+
+
+                                                                                                (Ques-4.5)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+start = 4
+end = 40
+step = 4
+total_sum = 0
+
+for i in range(start, end + 1, step):
+    total_sum += i
+print("Sum of the series 4 + 8 + 12 + ... + 40 is:", total_sum)
+
+
+
+
+                                                                                             (Ques-4.6)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+n = int(input("Enter the value of n: "))
+first_term = 0
+second_term = 1
+
+if n <= 0:
+    print("Please enter a positive integer.")
+elif n == 1:
+    print("Fibonacci sequence up to the", n, "term:")
+    print(first_term)
+else:
+    print("Fibonacci sequence up to the", n, "term:")
+    print(first_term)
+    print(second_term)
+
+    for i in range(2, n):
+        next_term = first_term + second_term
+        print(next_term)
+        first_term = second_term
+        second_term = next_term
+
+
+
+
+                                                                                           (Ques-4.7)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+number = int(input("Enter a number: "))
+
+print("Multiplication table of", number)
+for i in range(1, 11):
+    product = number * i
+    print(number, "x", i, "=", product)
+
+
+
+
+                                                                                     (Ques-4.8)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+n = int(input("Enter the number of rows: "))
+
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end="")
+     
+    for k in range(1, 2*i):
+        print("*", end="")
+    
+    print()
+
+          
+                                                                                  (Ques-4.9)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+sum_of_series = 0
+for i in range(3, 31, 3):
+    sum_of_series += i
+print("Sum of the series:", sum_of_series)
+
+
+
+                                                                                  (Ques-4.10)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+m = 1
+for num in [15, 13, 11, 9, 7]:
+    m *= num
+
+print("The product of the series m =", m)
+
+
+
+
+                                                                                     (Ques-4.11)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+number = int(input("Enter a number: "))
+
+factorial = 1
+for num in range(1, number + 1):
+    factorial *= num
+
+print("The factorial of", number, "is", factorial)
+
+
+
+                                                                                                (Ques-4.12)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+for num in range(2, 21, 2):
+    cube = num ** 3
+    print("The cube of", num, "is", cube)
+
+
+
+                                                                                               (Ques-4.13)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+n = int(input("Enter a number: "))
+
+sum = 0
+for num in range(1, n+1):
+    sum += num
+
+print("The sum of the first", n, "natural numbers is", sum)
+
+
+
+                                                                                                  (Ques-4.14)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+for i in range(10, 0, -1):
+    print(i)
+
+
+
+                                                                                                  (Ques-4.15)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+size = int(input("Enter the size of the list: "))
+my_list = []
+
+for i in range(size):
+    element = int(input("Enter an element: "))
+    my_list.append(element)
+
+print("List before sorting:", my_list)
+
+my_list.sort()
+
+print("List after sorting:", my_list)  
+
+
+
+                                                                                                   (Ques-5.1)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+fruits = ['apple', 'banana', 'orange', 'grape']
+
+print(fruits[0])  
+print(fruits[1])  
+
+fruits[2] = 'kiwi'
+print(fruits)  
+
+
+fruits.append('mango')
+print(fruits)  
+
+fruits.remove('banana')
+print(fruits)  
+
+print(len(fruits))  
+
+
+
+                                                                                               (Ques-5.2)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+my_list = ['q', 'w', 'e', 'r', 't', 'y']
+
+for i in range(len(my_list)):
+    print("Element:", my_list[i])
+    print("Positive Index:", i)
+    print("Negative Index:", i - len(my_list))
+    print()
+
+
+
+                                                                                               (Ques-5.3)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+my_list = [1, 2, 3, 4, 5]
+
+my_list.append(6)
+print("After append:", my_list)
+
+my_list.insert(2, 7)
+print("After insert:", my_list)
+
+my_list.remove(3)
+print("After remove:", my_list)
+
+popped_element = my_list.pop()
+print("Popped element:", popped_element)
+print("After pop:", my_list)
+
+index = my_list.index(4)
+print("Index of 4:", index)
+
+my_list.sort()
+print("After sort:", my_list)
+
+my_list.reverse()
+print("After reverse:", my_list)
+
+
+
+                                                                                    (Ques-5.4)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+element_00 = matrix[0][0]
+element_01 = matrix[0][1]
+element_02 = matrix[0][2]
+
+element_10 = matrix[1][0]
+element_11 = matrix[1][1]
+element_12 = matrix[1][2]
+
+element_20 = matrix[2][0]
+element_21 = matrix[2][1]
+element_22 = matrix[2][2]
+
+print("Element at (0, 0):", element_00)
+print("Element at (0, 1):", element_01)
+print("Element at (0, 2):", element_02)
+
+print("Element at (1, 0):", element_10)
+print("Element at (1, 1):", element_11)
+print("Element at (1, 2):", element_12)
+
+print("Element at (2, 0):", element_20)
+print("Element at (2, 1):", element_21)
+print("Element at (2, 2):", element_22)
+
+
+
+
+                                                                                            (Ques-5.5)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+numbers = [1, 2, 3, 4, 5]
+print("Original list:", numbers)
+
+numbers.append(6)
+print("After appending 6:", numbers)
+
+length = len(numbers)
+print("Length of the list:", length)
+
+numbers.sort()
+print("After sorting:", numbers)
+
+numbers.reverse()
+print("After reversing:", numbers)
+
+popped = numbers.pop()
+print("Popped element:", popped)
+print("After popping:", numbers)
+
+
+
+
+                                                                                              (Ques-5.6)
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+import math
+numbers = [5, 10, 15, 20, 25]
+
+mean = sum(numbers) / len(numbers)
+variance = sum((x - mean) ** 2 for x in numbers) / len(numbers)
+std_deviation = math.sqrt(variance)
+
+
+print("Mean:", mean)
+print("Variance:", variance)
+print("Standard Deviation:", std_deviation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
