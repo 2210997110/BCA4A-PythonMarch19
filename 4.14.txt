@@ -1,0 +1,7 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+for i in range(10, 0, -1):
+    print(i)

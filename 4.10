@@ -1,0 +1,10 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+m = 1
+for num in [15, 13, 11, 9, 7]:
+    m *= num
+
+print("The product of the series m =", m)

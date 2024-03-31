@@ -1,0 +1,13 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+start = 4
+end = 40
+step = 4
+total_sum = 0
+
+for i in range(start, end + 1, step):
+    total_sum += i
+print("Sum of the series 4 + 8 + 12 + ... + 40 is:", total_sum)

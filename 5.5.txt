@@ -1,0 +1,23 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+numbers = [1, 2, 3, 4, 5]
+print("Original list:", numbers)
+
+numbers.append(6)
+print("After appending 6:", numbers)
+
+length = len(numbers)
+print("Length of the list:", length)
+
+numbers.sort()
+print("After sorting:", numbers)
+
+numbers.reverse()
+print("After reversing:", numbers)
+
+popped = numbers.pop()
+print("Popped element:", popped)
+print("After popping:", numbers)

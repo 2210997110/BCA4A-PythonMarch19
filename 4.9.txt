@@ -1,0 +1,9 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+sum_of_series = 0
+for i in range(3, 31, 3):
+    sum_of_series += i
+print("Sum of the series:", sum_of_series)

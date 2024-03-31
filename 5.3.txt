@@ -1,0 +1,28 @@
+name="Kamalpreet"
+roll=2210997110
+print(name)
+print(roll)
+
+my_list = [1, 2, 3, 4, 5]
+
+my_list.append(6)
+print("After append:", my_list)
+
+my_list.insert(2, 7)
+print("After insert:", my_list)
+
+my_list.remove(3)
+print("After remove:", my_list)
+
+popped_element = my_list.pop()
+print("Popped element:", popped_element)
+print("After pop:", my_list)
+
+index = my_list.index(4)
+print("Index of 4:", index)
+
+my_list.sort()
+print("After sort:", my_list)
+
+my_list.reverse()
+print("After reverse:", my_list)
